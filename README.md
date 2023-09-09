@@ -1,2 +1,2 @@
 # myProjects
-These are my major and minor projects.
+These are my Major and Minor projects.
