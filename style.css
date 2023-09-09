@@ -351,3 +351,40 @@ a{
     border-radius: 50%;
     margin-top:-6px ;
 }
+@media (max-width:670px){
+
+    .album{
+        display:none;
+    }
+    .controls{
+        display: none;
+    }
+    .music-player{
+        justify-content: center;
+    }
+}
+@media (max-width:630px){
+
+    .sidebar{
+        width: 100%;
+    }
+    .main{
+        display:block;
+        overflow: auto;
+    
+    }
+    .player{
+        display: none;
+    } 
+    .music-player{
+        display: none;
+    }
+}
+@media (max-width:500px){
+    .player{
+        width: 90%;
+    }
+    .music-player{
+        flex-wrap:wrap ;
+    }
+}
